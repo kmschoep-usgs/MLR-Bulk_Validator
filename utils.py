@@ -30,5 +30,5 @@ def run_validate(cru_url, validator_url, last_record, counts_only):
 
     print('Number of records validated: ' + str(recs_validated))
     print('Number of records with fatal errors: ' + str(failed_count))
-    print('Number of records with warnings: ' + str(failed_count))
+    print('Number of records with warnings: ' + str(warning_count))
     print('Number of records passed validation: ' + str(passed_count))
